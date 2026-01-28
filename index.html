@@ -8,14 +8,93 @@
             
         }
     </style>
+    <script src="dist/js/bootstrap.js"></script>
 </head>
     <body>
+
+        <!-- section one starts here -->
+            <section class="row">
+
+                <div class="col-lg-12">
+                    <!-- navbelow tag element will hold all the contents of the navbar -->
+                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                        <a href="index.html" class="navbar-brand"><b>Tumaini collection</b></a>
+
+                        <!-- below is the toggler/hamburger button to either collapse or expand contents depending  the different screen sizes -->
+
+                        <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div id="navbarcontents" class="navbar-collapse  collapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-link" im>Home</a>
+                                <a href="beddings.html" class="nav-link">Bedding</a>
+                                <a href="#" class="nav-link">Fashion</a>
+
+                            </div>
+                        </div>
+                     </nav>
+
+
+                </div>
+            </section><br>
+
+         <!-- section one ends here -->
+          <!-- section two starts here -->
+
+           <!-- carousel->It is used to move/slide different contents on the screen from one side to the other 
+            A carousel has three main sections i.e 
+            a) The inner/Wrapper->It holds the contents to be diplayed
+            b)control(We have Left and right controllers to show direction of movement) 
+            c) Indicators->They indicate which content is currently
+                            visible on the screen.-->
+        
+           <section  class="row">
+            <div class="col-lg-12">
+                <!-- Below is the division that will hold all the contents of the carousel -->
+                   <div class="carousel  slide" data-bs-ride="carousel" id="mycarousel" >
+                    <!-- Below is the div that will hold all the images -->
+                        <div class="carousel-inner">
+                            <!-- Below is the div with the first image -->
+                                <div class="carousel-item">
+                                <img src="images/images/slide1.jpg" alt="Slide one" class="d-block w-100">
+                                </div>
+                                <!-- Below is the div with the second image -->
+                                 <div class="carousel-item">
+                                    <img src="images/images/slide2.jpg" alt="Slide two" class="d-block w-100">
+                                 </div>
+                                 <!-- Below is the div with the third image -->
+                                 <div class="carousel-item">
+                                    <img src="images/images/slide3.jpg" alt="Slide three" class="d-block w-100">
+                                 </div>
+                                 <!-- Below is the div with the fourth image -->
+                                 <div class="carousel-item active">
+                                    <img src="images/images/slide4.jpg" alt="Slide four" class="d-block w-100">
+                                 </div>
+                         </div>
+                         <!-- Below are the controls -->
+                         <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev "><span class="carousel-control-prev-icon bg-warning"></span></a>
+
+                         <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon bg-warning"></span></a>
+                         </div>
+            </div>
+           </section>
+
+           <!-- section two ends here -->
+
+
         <!-- Section three starts here -->
          <section class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3 text-center">
+
                 <img src="images/images/advert.jpg" alt="advert image" width="90%" height ="350px">
+
             </div>
-            <div class="col-md-3 text-center " >
+            <div class="col-lg-3 text-center " >
+
                 <img src="images/images/alionskettle.jpg" alt="alionskettle" width="200px" height="200px">
 
                 <h5>Allions Kettle</h5>
@@ -28,7 +107,8 @@
 
             </div>
 
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
+
                 <img src="images/images/Mika2slicetoaster.png" alt="Mika2slicetoaster" width="200px" height="200px">
 
             <h5>Mika 2 slice toaster</h5>
@@ -42,7 +122,8 @@
 
             </div>
 
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
+
                 <img src="images/images/cooker.jpg" alt="" height="200px" width="200px">
 
                 <h5>pro cooker</h5>
@@ -61,11 +142,14 @@
 
          <!-- section four starts here -->
           <section class="row">
-            <div class="col-md-6">
+            
+            <div class="col-lg-6">
+
                 <img src="images/images/advert1.jpg" alt="advert one " width="98%" height ="350px">
             </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                 <img src="images/images/advert2.jpg" alt="advert two" width="98%" height ="350px">
+
                 </div>
 
           </section><hr>
@@ -77,7 +161,7 @@
 
           <section class="row">
             
-            <div class="col-md-4 text-center">
+            <div class="col-lg-4 text-center">
 
                 <img src="images/images/decor1.jpg" alt="decor one" width="200px" height ="200px">
 
@@ -91,7 +175,7 @@
 
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="images/images/decor2.jpg" alt="decor two" width="200px" height ="200px">
 
                     <h5>Decor two</h5>
@@ -104,7 +188,7 @@
 
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="images/images/decor3.jpg" alt="decor three" width="200px" height ="200px">
 
                     <h5>Decor three</h5>
@@ -122,7 +206,7 @@
 
             <h3>Televisions</h3>
             <section class="row">
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
 
                          <h5>Samsung 55" Smart TV</h5>
 
@@ -137,7 +221,7 @@
                     </div>
 
                
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <h5>LG 50" UHD 4K TV</h5>
 
                     <img src="images/images/screen2.jpg" alt="Led tv" width="200px" height ="200px">
@@ -149,7 +233,7 @@
                     <span class="badge bg-danger">20% off</span>
                 
                 </div>
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
                 <h5>Sony Bravia 43" Smart Tv</h5>
 
                     <img src="images/images/screen3.jpg" alt="Sony Bravia 43" smart tv" width="200px" height ="200px">
@@ -161,7 +245,7 @@
                     <span class="badge bg-danger">20% off</span>
 
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
                 <h5>Tcl 40"Android Tv</h5>
                     <img src="images/images/screen4.jpg" alt="Tcl 40" Android tv" width="200px" height ="200px">
                    
@@ -177,7 +261,7 @@
               <!-- section seven starts here -->
             <h4>Smartphones</h4>
             <section class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <h5>Google Pixel 6, 5G</h5>
                     <img src="images/images/phone1.jpg" alt="Phone 1" width="250px" height ="250px">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -185,7 +269,7 @@
                     <span class="badge bg-danger">10% off</span>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <h5>Techno Pop 7, 6.6 Inch</h5>
                     <img src="images/images/phone2.jpg" alt="Phone 2" width="250px" height ="250px">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -193,7 +277,7 @@
                     <span class="badge bg-danger">15% off</span>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <h5>Itel A18, 5.0 Inch</h5>
                     <img src="images/images/phone5.jpg" alt="Phone 5" width="250px" height ="250px">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -210,7 +294,7 @@
                 <!-- section eight starts here -->
                  <h3> Bathroom accessories</h3>
             <section class="row">
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <h5>Modern Shower Set</h5>
                     <img src="images/images/bath1.jpg" alt="Modern Shower Set" width="250px" height ="250px">
 
@@ -221,7 +305,7 @@
                     <span class="badge bg-danger">10% off</span>
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Luxury Bathtub</h5>
                         <img src="images/images/bath2.jpg" alt="Luxury Bathtub" width="250px" height ="250px">
 
@@ -232,7 +316,7 @@
                         <span class="badge bg-danger">15% off</span>
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Bathroom Sink Mixer</h5>
                         <img src="images/images/bath3.jpg" alt="Bathroom Sink Mixer" width="250px" height ="250px">
 
@@ -242,7 +326,7 @@
 
                         <span class="badge bg-danger">8% off</span>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Wall Mounted Mirror</h5>
                         <img src="images/images/bath4.jpg" alt="Wall Mounted Mirror" width="250px" height ="250px">
 
@@ -254,6 +338,49 @@
                 </section><hr>
 
                  <!-- section eight ends here -->
+                  
+                  <!-- section nine starts here -->
+
+                  <section class="row bg-warning">
+                    
+                    <div class="col-lg-4 p-3 text-white">
+                        <h4 class="text-center"> About Us </h4>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam odit autem, natus temporibus ut veniam?</p>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsam pariatur delectus error aperiam nobis.</p>
+
+                    </div>
+
+                    <div class="col-lg-4 p-4">
+                        <h4 class="text-center text-white"></h4>
+                        <form>
+                            <input type="text" placeholder="Enter Email Address" class="form-control">
+                            <br>
+                            <textarea cols="50" rows="5" class="form-control" placeholder="Leave a comment"></textarea>
+                            <input type="submit" value="send message" class="btn btn-outline-danger">
+                        </form>
+
+
+                    </div>
+                    <div class="col-lg-4 p-4 text-center">
+                        <h4 class="text-center text-white">Stay Connected</h4>
+                        <a href="https;//www.facebook,com"><img src="images/images/fb.png" alt="">
+                        </a>
+
+                        <a href="https://www.instagram.com"><img src="images/images/in.png" alt=""></a>
+
+                        <a href="https://www.twtter.com"><img src="images/images/x.png" alt=""></a>
+
+                        <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam dolorum non eos laborum ipsam.</p>
+                    </div>
+                </section>
+                <footer class="text-center text-white bg-dark p-2">
+                <b>Developed by Isaac&copy;All rights reserved</b>
+
+                </footer>
+
+                   <!-- section nine ends here -->
 
 
     </body>
